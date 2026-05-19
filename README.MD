@@ -16,11 +16,25 @@ Physical Unclonable Functions (PUFs) are hardware security primitives that explo
 
 ```
 puf-modeling-attack/
-├── Arbiter_PUF/                  # Arbiter PUF simulation and modeling experiments
-├── MLPRingOPUFF/                 # MLP experiments on Ring Oscillator PUF
-├── Ring Oscillator Experiments/  # RO-PUF CRP generation and feature engineering
-├── FInal/                        # Final consolidated results and writeup materials
-└── ICML2025_Template.pdf         # Paper writeup (ICML 2025 format)
+│
+├── MLPRingOPUF (2).ipynb          # Main Ring Oscillator PUF notebook
+├── README.MD                      # Project documentation
+├── Ring Oscillator Experiments.ipynb
+│                                   # RO-PUF experiments and analysis
+│
+├── arbiter_basic_models.py        # Baseline Arbiter PUF models
+├── arbiter_generate_crps.py       # Arbiter PUF CRP generation
+├── arbiter_mlp.py                 # MLP modeling for Arbiter PUF
+├── arbiter_puf_64bit_10000crps.npz
+│                                   # Saved Arbiter PUF dataset
+│
+├── xor_architectures.py           # XOR Arbiter PUF architectures
+├── xor_basic_models.py            # Baseline XOR PUF models
+├── xor_generate_crps.py           # XOR PUF CRP generation
+├── xor_mlp.py                     # MLP attacks on XOR PUFs
+├── xor_transfer.py                # Transfer learning experiments
+├── xor_transfer2.py               # Additional transfer experiments
+└── xor_vary_k.py                  # Experiments varying XOR size (k)
 ```
 
 ## Methods
