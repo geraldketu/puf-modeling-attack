@@ -19,6 +19,7 @@ puf-modeling-attack/
 │
 ├── MLPRingOPUF (2).ipynb          # Main Ring Oscillator PUF notebook
 ├── README.MD                      # Project documentation
+├── OscillatorPUFF (1).py          # RO-PUF Generation
 ├── Ring Oscillator Experiments.ipynb
 │                                   # RO-PUF experiments and analysis
 │
